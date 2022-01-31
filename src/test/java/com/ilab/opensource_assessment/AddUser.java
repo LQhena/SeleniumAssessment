@@ -11,7 +11,7 @@ public class AddUser {
 	@Test(priority=8)
 	public void add() {
 		Setup.log = LogManager.getLogger(AddUser.class.getName());
-		
+		//Click on add button
 		if(Setup.driver.findElement(By.id(Locators.AddButton)) != null) {
 			Setup.driver.findElement(By.id(Locators.AddButton)).click();
 		}
@@ -33,7 +33,7 @@ public class AddUser {
 
 	@Test(priority = 11)
 	public void inputdata() {
-		System.out.println(Setup.driver.findElement(By.id(Locators.Usertype_DropDownList)).getText());
+		//Enter User data to add user
 		//NB verify status dropdown is Selected
 		Select Statuslocation = new Select(Setup.driver.findElement(By.id(Locators.UserStatus_DropDownList)));
 
@@ -60,7 +60,7 @@ public class AddUser {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
+			//Click on save user button
 			Setup.driver.findElement(By.name(Locators.SaveUser_Button)).click();
 		}
 	}

@@ -8,11 +8,11 @@ public class SearchUserDeleted {
   @Test(priority = 17)
   public void SearchDeletedUser() {
 	  Setup.log = LogManager.getLogger(SearchUserDeleted.class.getName());
-	  
+	  //Search for the deleted user
 	  Setup.driver.findElement(By.id(Locators.SearchUsername_TextBox)).clear();
 	  Setup.driver.findElement(By.id(Locators.SearchUsername_TextBox)).sendKeys(UserInputValues.UserName);
 	  
-	  
+	  //click on search button
 	  Setup.driver.findElement(By.id(Locators.SearchButton)).click();
 	  
   }

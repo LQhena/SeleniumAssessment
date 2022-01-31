@@ -8,6 +8,7 @@ public class AdminNavigation {
 	@Test(priority = 5)
 	  public void NavigateToAdmin() {
 		Setup.log = LogManager.getLogger(AdminNavigation.class.getName());
+		//Click on admin tab 
 		Setup.driver.findElement(By.id(Locators.AdminTab)).click();
 	  }
 	  

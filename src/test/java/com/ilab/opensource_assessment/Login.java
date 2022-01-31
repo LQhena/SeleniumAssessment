@@ -11,11 +11,12 @@ public class Login {
 	  public void login(String name, String password) {
 		Setup.log = LogManager.getLogger(Login.class.getName());
 		
+		//entering login details
 		Setup.driver.findElement(By.id(Locators.UsernameTextBox)).clear();
 		Setup.driver.findElement(By.id(Locators.UsernameTextBox)).sendKeys(name);
 		Setup.driver.findElement(By.id(Locators.PasswordTextBox)).clear();
 		Setup.driver.findElement(By.id(Locators.PasswordTextBox)).sendKeys(password);
-		
+		//click on login button
 		Setup.driver.findElement(By.id(Locators.LoginButton)).click();
 	  }
 	

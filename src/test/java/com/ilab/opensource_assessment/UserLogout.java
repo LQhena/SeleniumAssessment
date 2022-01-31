@@ -8,8 +8,9 @@ public class UserLogout {
   @Test(priority = 19)
   public void Logout() {
 	  Setup.log = LogManager.getLogger(UserLogout.class.getName());
-	  
+	  //Click on Welcome user tab
 	  Setup.driver.findElement(By.id(Locators.Welcome_TAG)).click();
+	  //Click on logout
 	  Setup.driver.findElement(By.xpath(Locators.logout_TAG)).click();
   }
   

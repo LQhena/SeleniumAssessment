@@ -8,10 +8,10 @@ public class SearchUser {
   @Test(priority = 12)
   public void Search() {
 	  Setup.log = LogManager.getLogger(SearchUser.class.getName());
-	  
+	  //enter the username to Search for 
 	  Setup.driver.findElement(By.id(Locators.SearchUsername_TextBox)).clear();
 	  Setup.driver.findElement(By.id(Locators.SearchUsername_TextBox)).sendKeys(UserInputValues.UserName);
-	  
+	  //click on search button
 	  Setup.driver.findElement(By.id(Locators.SearchButton)).click();
   }
   
