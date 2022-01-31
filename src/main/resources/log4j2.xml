@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+  <File name="File1" fileName="output.log" bufferedIO="false">
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+    </File>
+  </Appenders>
+  <Loggers>
+    <Logger name="com.ilab.opensource_Assessment.Setup" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.ilab.opensource_Assessment.Login" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.ilab.opensource_Assessment.AdminNavigation" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.ilab.opensource_Assessment.AddUser" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.ilab.opensource_Assessment.SearchUser" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.ilab.opensource_Assessment.DeleteUser" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.ilab.opensource_Assessment.SearchUserDeleted" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.ilab.opensource_Assessment.UserLogout" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+    <Root level="error">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>

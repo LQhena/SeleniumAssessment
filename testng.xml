@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ilab.opensource_assessment.Setup"/>
+      <class name="com.ilab.opensource_assessment.Login"/>
+      <class name="com.ilab.opensource_assessment.AdminNavigation"/>
+      <class name="com.ilab.opensource_assessment.AddUser"/>
+      <class name="com.ilab.opensource_assessment.SearchUser"/>
+      <class name="com.ilab.opensource_assessment.DeleteUser"/>
+      <class name="com.ilab.opensource_assessment.SearchUserDeleted"/>
+      <class name="com.ilab.opensource_assessment.UserLogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

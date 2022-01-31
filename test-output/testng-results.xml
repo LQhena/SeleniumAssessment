@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T21:14:48Z" name="Suite" finished-at="2022-01-31T21:15:15Z" duration-ms="27785">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T21:14:48Z" name="Test" finished-at="2022-01-31T21:15:15Z" duration-ms="27785">
+      <class name="com.ilab.opensource_assessment.DeleteUser">
+        <test-method signature="DeleteSelectedUser()[pri:16, instance:com.ilab.opensource_assessment.DeleteUser@12359a82]" started-at="2022-01-31T23:15:11Z" name="DeleteSelectedUser" finished-at="2022-01-31T23:15:13Z" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteSelectedUser -->
+      </class> <!-- com.ilab.opensource_assessment.DeleteUser -->
+      <class name="com.ilab.opensource_assessment.SearchUser">
+        <test-method signature="Search()[pri:12, instance:com.ilab.opensource_assessment.SearchUser@3e6104fc]" started-at="2022-01-31T23:15:08Z" name="Search" finished-at="2022-01-31T23:15:11Z" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Validation1()[pri:13, instance:com.ilab.opensource_assessment.SearchUser@3e6104fc]" started-at="2022-01-31T23:15:11Z" name="Validation1" finished-at="2022-01-31T23:15:11Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation1 -->
+        <test-method signature="Validation2()[pri:14, instance:com.ilab.opensource_assessment.SearchUser@3e6104fc]" started-at="2022-01-31T23:15:11Z" name="Validation2" finished-at="2022-01-31T23:15:11Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation2 -->
+        <test-method signature="Validation3()[pri:15, instance:com.ilab.opensource_assessment.SearchUser@3e6104fc]" started-at="2022-01-31T23:15:11Z" name="Validation3" finished-at="2022-01-31T23:15:11Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation3 -->
+      </class> <!-- com.ilab.opensource_assessment.SearchUser -->
+      <class name="com.ilab.opensource_assessment.UserLogout">
+        <test-method signature="Logout()[pri:19, instance:com.ilab.opensource_assessment.UserLogout@479460a6]" started-at="2022-01-31T23:15:13Z" name="Logout" finished-at="2022-01-31T23:15:15Z" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="Validation1()[pri:20, instance:com.ilab.opensource_assessment.UserLogout@479460a6]" started-at="2022-01-31T23:15:15Z" name="Validation1" finished-at="2022-01-31T23:15:15Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation1 -->
+        <test-method signature="Validation2()[pri:21, instance:com.ilab.opensource_assessment.UserLogout@479460a6]" started-at="2022-01-31T23:15:15Z" name="Validation2" finished-at="2022-01-31T23:15:15Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation2 -->
+      </class> <!-- com.ilab.opensource_assessment.UserLogout -->
+      <class name="com.ilab.opensource_assessment.Login">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.ilab.opensource_assessment.Login@1fb669c3]" started-at="2022-01-31T23:14:53Z" name="login" data-provider="loginData" finished-at="2022-01-31T23:14:55Z" duration-ms="2355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.ilab.opensource_assessment.Login@1fb669c3]" started-at="2022-01-31T23:14:55Z" name="login" data-provider="loginData" finished-at="2022-01-31T23:15:01Z" duration-ms="5776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validation1()[pri:2, instance:com.ilab.opensource_assessment.Login@1fb669c3]" started-at="2022-01-31T23:15:01Z" name="validation1" finished-at="2022-01-31T23:15:01Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation1 -->
+        <test-method signature="validation2()[pri:3, instance:com.ilab.opensource_assessment.Login@1fb669c3]" started-at="2022-01-31T23:15:01Z" name="validation2" finished-at="2022-01-31T23:15:01Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation2 -->
+        <test-method signature="validation3()[pri:4, instance:com.ilab.opensource_assessment.Login@1fb669c3]" started-at="2022-01-31T23:15:01Z" name="validation3" finished-at="2022-01-31T23:15:01Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation3 -->
+      </class> <!-- com.ilab.opensource_assessment.Login -->
+      <class name="com.ilab.opensource_assessment.AddUser">
+        <test-method signature="add()[pri:8, instance:com.ilab.opensource_assessment.AddUser@6239aba6]" started-at="2022-01-31T23:15:04Z" name="add" finished-at="2022-01-31T23:15:05Z" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method signature="validation1()[pri:9, instance:com.ilab.opensource_assessment.AddUser@6239aba6]" started-at="2022-01-31T23:15:05Z" name="validation1" finished-at="2022-01-31T23:15:05Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation1 -->
+        <test-method signature="validation2()[pri:10, instance:com.ilab.opensource_assessment.AddUser@6239aba6]" started-at="2022-01-31T23:15:05Z" name="validation2" finished-at="2022-01-31T23:15:05Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation2 -->
+        <test-method signature="inputdata()[pri:11, instance:com.ilab.opensource_assessment.AddUser@6239aba6]" started-at="2022-01-31T23:15:05Z" name="inputdata" finished-at="2022-01-31T23:15:08Z" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputdata -->
+      </class> <!-- com.ilab.opensource_assessment.AddUser -->
+      <class name="com.ilab.opensource_assessment.AdminNavigation">
+        <test-method signature="NavigateToAdmin()[pri:5, instance:com.ilab.opensource_assessment.AdminNavigation@49c66ade]" started-at="2022-01-31T23:15:01Z" name="NavigateToAdmin" finished-at="2022-01-31T23:15:03Z" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToAdmin -->
+        <test-method signature="validation1()[pri:6, instance:com.ilab.opensource_assessment.AdminNavigation@49c66ade]" started-at="2022-01-31T23:15:03Z" name="validation1" finished-at="2022-01-31T23:15:03Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation1 -->
+        <test-method signature="validation2()[pri:7, instance:com.ilab.opensource_assessment.AdminNavigation@49c66ade]" started-at="2022-01-31T23:15:03Z" name="validation2" finished-at="2022-01-31T23:15:04Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation2 -->
+      </class> <!-- com.ilab.opensource_assessment.AdminNavigation -->
+      <class name="com.ilab.opensource_assessment.Setup">
+        <test-method is-config="true" signature="config()[pri:0, instance:com.ilab.opensource_assessment.Setup@1339e7aa]" started-at="2022-01-31T23:14:47Z" name="config" finished-at="2022-01-31T23:14:48Z" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ilab.opensource_assessment.Setup@1339e7aa]" started-at="2022-01-31T23:14:48Z" name="setup" finished-at="2022-01-31T23:14:53Z" duration-ms="5374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Extentflush()[pri:0, instance:com.ilab.opensource_assessment.Setup@1339e7aa]" started-at="2022-01-31T23:15:15Z" name="Extentflush" finished-at="2022-01-31T23:15:15Z" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentflush -->
+      </class> <!-- com.ilab.opensource_assessment.Setup -->
+      <class name="com.ilab.opensource_assessment.SearchUserDeleted">
+        <test-method signature="SearchDeletedUser()[pri:17, instance:com.ilab.opensource_assessment.SearchUserDeleted@68df9280]" started-at="2022-01-31T23:15:13Z" name="SearchDeletedUser" finished-at="2022-01-31T23:15:13Z" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDeletedUser -->
+        <test-method signature="Validation1()[pri:18, instance:com.ilab.opensource_assessment.SearchUserDeleted@68df9280]" started-at="2022-01-31T23:15:13Z" name="Validation1" finished-at="2022-01-31T23:15:13Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation1 -->
+      </class> <!-- com.ilab.opensource_assessment.SearchUserDeleted -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

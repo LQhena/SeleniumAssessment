@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.ilab.opensource_assessment.DeleteUser">
+        <methods>
+          <include name="DeleteSelectedUser"/>
+        </methods>
+      </class> <!-- com.ilab.opensource_assessment.DeleteUser -->
+      <class name="com.ilab.opensource_assessment.SearchUser">
+        <methods>
+          <include name="Validation1"/>
+          <include name="Validation3"/>
+          <include name="Search"/>
+          <include name="Validation2"/>
+        </methods>
+      </class> <!-- com.ilab.opensource_assessment.SearchUser -->
+      <class name="com.ilab.opensource_assessment.SearchUserDeleted">
+        <methods>
+          <include name="Validation1"/>
+          <include name="SearchDeletedUser"/>
+        </methods>
+      </class> <!-- com.ilab.opensource_assessment.SearchUserDeleted -->
+      <class name="com.ilab.opensource_assessment.UserLogout">
+        <methods>
+          <include name="Logout"/>
+          <include name="Validation1"/>
+          <include name="Validation2"/>
+        </methods>
+      </class> <!-- com.ilab.opensource_assessment.UserLogout -->
+      <class name="com.ilab.opensource_assessment.Setup">
+        <methods>
+          <include name="setup"/>
+          <include name="config"/>
+          <include name="Extentflush"/>
+        </methods>
+      </class> <!-- com.ilab.opensource_assessment.Setup -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
